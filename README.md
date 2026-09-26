@@ -16,6 +16,7 @@ Windows may say "Windows protected your PC" because Echelon is new and not code-
 
 - **Library and profiles:** add mods from .zip, .rar, .7z or folders; build profiles with load order, separators, tags and per-mod options.
 - **One-click deploy:** puts exactly the active profile into the game (and can purge the game back to unmodded).
+- **Bingus Shared Loader support:** recognises the loader and the mods that need it, warns when a profile is missing it, and keeps it in the right load-order spot automatically so Bingus mods actually start.
 - **Import from HD2 Arsenal:** bring your mods, profiles and option choices over.
 - **Share profiles:** as short codes (`EC-XXXX-XXXX`) or links.
 - **Developer Suite:** Mod Builder and Repatcher for modders.
