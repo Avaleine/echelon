@@ -1,0 +1,69 @@
+The Repatcher in Echelon is based on hd2-repatcher and follows rules from hd2-mod-crates.
+Its text-file reader follows the format as read by filediver.
+
+hd2-repatcher - https://github.com/RaidingForPants/hd2-repatcher
+MIT License
+
+Copyright (c) 2026 RaidingForPants
+
+hd2-mod-crates - https://github.com/eigeen/hd2-mod-crates
+MIT License (dual-licensed MIT OR Apache-2.0), by eigeen
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+filediver - https://github.com/xypwn/filediver
+BSD 3-Clause License
+
+Copyright 2026 Filediver contributors
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that
+the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the
+following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the
+following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote
+products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+------------------------------------------------------------------------------------------------------------------
+The Windows build (Echelon.exe) also includes:
+
+Qt and Qt for Python (PySide6, shiboken6) - https://www.qt.io/qt-for-python
+Used under the GNU Lesser General Public License v3 (LGPL-3.0). The Qt libraries are included unmodified as
+separate files (the .dll files in the Echelon folder); you may replace them with your own compatible build.
+Qt's source code is available at https://code.qt.io and https://download.qt.io.
+
+python-lz4 - https://github.com/python-lz4/python-lz4 - BSD 3-Clause License
+LZ4 - https://github.com/lz4/lz4 - BSD 2-Clause License
+
+Python - https://www.python.org - Python Software Foundation License
+
+The full licence texts are in the "licenses" folder next to Echelon.exe.

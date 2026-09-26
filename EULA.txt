@@ -1,0 +1,71 @@
+ECHELON - END-USER LICENCE AGREEMENT
+Version 1.1 - effective September 26, 2026 (the app was renamed from Warbond Reloaded to Echelon)
+
+Please read this agreement carefully. By ticking "I have read and accept" and continuing, you agree to be bound by it. If you do not agree, do not install or use Echelon.
+
+1. WHO THIS AGREEMENT IS BETWEEN
+This End-User Licence Agreement ("Agreement") is between you and the Echelon team ("we", "us"), the makers of Echelon, a mod manager and set of modding tools for Helldivers 2 (the "Software"). The Software includes any updates, tools, documentation and online services we provide for it.
+
+2. AGE
+You must be old enough to enter into a binding agreement where you live, or have the permission of a parent or legal guardian who agrees to this Agreement on your behalf.
+
+3. LICENCE
+We grant you a personal, non-exclusive, non-transferable, revocable licence to install and use the Software on devices you own or control, for your own non-commercial use. The Software is licensed, not sold. We keep all rights not expressly granted to you.
+
+4. WHAT YOU MAY NOT DO
+Except where applicable law expressly permits it, you may not:
+ a) sell, rent, lease, sublicense or charge for the Software or access to it;
+ b) distribute modified copies of the Software, or pass off the Software or any part of it as your own;
+ c) remove or change any copyright, licence or credit notice in the Software;
+ d) use the Software to break the law, or to infringe anyone's rights;
+ e) use the Software's online services in a way that harms them or other users (for example by flooding them with requests or uploading unlawful content).
+
+5. THIRD-PARTY COMPONENTS
+The Software includes open-source components (for example Qt / PySide6, lz4 and code based on work by other modders). Each is provided under its own licence, listed in Settings > System > Licences. Those licences govern those components, and nothing in this Agreement limits your rights under them.
+
+6. MODS AND OTHER CONTENT
+Mods you add, download, build or share are made by third parties or by you, not by us. We do not check, endorse or take responsibility for any mod, including its content, safety, legality or whether it works. You are responsible for the mods you use and share, and for having the right to use and share them.
+
+7. HELLDIVERS 2 AND ITS PUBLISHERS
+Echelon is an unofficial fan-made tool. It is not made, endorsed, sponsored or supported by Arrowhead Game Studios, Sony Interactive Entertainment, PlayStation or any of their affiliates. "Helldivers" and related names are trademarks of their respective owners.
+Modifying a game may be against that game's terms of service or break it. You are solely responsible for following the terms of Helldivers 2 and any platform you play it on. We are not responsible for any account action, suspension, ban, lost progress, crashes or other consequences of using mods or the Software.
+
+8. YOUR FILES
+The Software copies, moves, renames and deletes files in folders you choose, including the game's data folder. Keep backups of anything you care about. You use features such as Deploy, Purge, Hard reset and the developer tools at your own risk.
+
+9. ONLINE FEATURES AND PRIVACY
+The Software works offline. Its online features are optional and off until you turn them on:
+ - update checks (ask GitHub for the newest version);
+ - mod-text translation (sends mod descriptions to the MyMemory translation service);
+ - profile sharing (uploads the mod list and settings you choose to share, never mod files, to our sharing server when you share, and downloads a shared profile when you open one);
+ - links to web pages you choose to open.
+We do not collect personal information, and the Software contains no advertising or tracking. Those third-party services have their own terms and privacy policies. Anything you share publicly, such as a shared profile code, can be seen by anyone who has it.
+
+10. UPDATES AND CHANGES
+We may update the Software, add or remove features, or stop providing it or its online services at any time. We may change this Agreement; when we do, the Software will ask you to accept the new version before you keep using it.
+
+11. SUPPORTER PERKS
+Some optional extras (for example themes) may be offered to supporters. Any such perks are described where they are offered and do not change the rest of this Agreement.
+
+12. NO WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE, UNINTERRUPTED, SECURE OR COMPATIBLE WITH ANY VERSION OF HELLDIVERS 2 OR ANY MOD.
+
+13. LIMITATION OF LIABILITY
+TO THE FULLEST EXTENT PERMITTED BY LAW, WE ARE NOT LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF DATA, SAVE FILES, GAME PROGRESS, ACCOUNT ACCESS, PROFITS OR GOODWILL, ARISING FROM OR RELATED TO THE SOFTWARE OR ANY MOD, EVEN IF WE WERE TOLD SUCH DAMAGES WERE POSSIBLE. OUR TOTAL LIABILITY FOR ANY CLAIM IS LIMITED TO THE AMOUNT YOU PAID US FOR THE SOFTWARE, IF ANY, OR US $10, WHICHEVER IS GREATER. Some places do not allow certain exclusions or limits, so some of the above may not apply to you.
+
+14. INDEMNITY
+You agree to hold harmless the Echelon team from claims by others arising from the mods you use or share, or from your breach of this Agreement or of anyone else's terms or rights.
+
+15. ENDING THIS AGREEMENT
+This Agreement lasts until it ends. You can end it at any time by uninstalling the Software. It ends automatically if you break it. When it ends, you must stop using the Software and delete your copies. Sections 6, 7, 8 and 12 to 18 continue after it ends.
+
+16. GOVERNING LAW
+This Agreement is governed by the laws of the State of Florida, United States, without regard to its conflict-of-law rules. Any dispute that goes to court will be heard in the state or federal courts located in Florida, and you and we consent to their jurisdiction, except where the law of the place you live gives you the right to bring a claim where you live.
+
+17. GENERAL
+If any part of this Agreement is found unenforceable, the rest stays in effect. Our not enforcing a part of this Agreement is not a waiver of it. This Agreement, together with the licences in Settings > System > Licences, is the entire agreement between you and us about the Software. If this Agreement is ever shown in another language, the English version governs.
+
+18. RECORD OF ACCEPTANCE
+When you accept this Agreement, the Software stores the version of the Agreement, the date and time, and the version of the Software on your computer, so you can see what you accepted in Settings > System. This record stays on your computer and is not sent to us.
+
+Questions about this Agreement can be sent through the contact links on the Echelon download page.
