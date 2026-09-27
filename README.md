@@ -26,6 +26,10 @@ Windows may say "Windows protected your PC" because Echelon is new and not code-
 
 Echelon works offline. Its online features are off until you turn them on in the first-time setup or Settings: update checks (GitHub), mod-text translation (MyMemory), and profile sharing (only when you share or open a profile). It has no tracking or advertising.
 
+## Support
+
+Echelon is free, and every feature is available to everyone. If you'd like to support its development, you can leave a tip on [Ko-fi](https://ko-fi.com/avaleine). Donations are entirely optional and don't unlock anything.
+
 ## Reporting a problem
 
 Open an [issue](../../issues) and attach your latest log from `%APPDATA%\Echelon\logs` (Settings > System > About shows the exact path).

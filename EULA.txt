@@ -1,5 +1,5 @@
 ECHELON - END-USER LICENCE AGREEMENT
-Version 1.1 - effective September 26, 2026 (the app was renamed from Warbond Reloaded to Echelon)
+Version 1.2 - effective September 26, 2026 (section 11: donations instead of supporter perks)
 
 Please read this agreement carefully. By ticking "I have read and accept" and continuing, you agree to be bound by it. If you do not agree, do not install or use Echelon.
 
@@ -44,8 +44,8 @@ We do not collect personal information, and the Software contains no advertising
 10. UPDATES AND CHANGES
 We may update the Software, add or remove features, or stop providing it or its online services at any time. We may change this Agreement; when we do, the Software will ask you to accept the new version before you keep using it.
 
-11. SUPPORTER PERKS
-Some optional extras (for example themes) may be offered to supporters. Any such perks are described where they are offered and do not change the rest of this Agreement.
+11. DONATIONS
+The Software is free, and every feature is available to everyone. Donations (for example through Ko-fi) are voluntary gifts to support development: they do not buy the Software, unlock features or give any extra rights, and they do not change the rest of this Agreement.
 
 12. NO WARRANTY
 THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE, UNINTERRUPTED, SECURE OR COMPATIBLE WITH ANY VERSION OF HELLDIVERS 2 OR ANY MOD.

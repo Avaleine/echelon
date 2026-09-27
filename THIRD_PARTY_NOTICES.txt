@@ -66,4 +66,7 @@ LZ4 - https://github.com/lz4/lz4 - BSD 2-Clause License
 
 Python - https://www.python.org - Python Software Foundation License
 
+Ko-fi - https://ko-fi.com - the Ko-fi name and cup logo are trademarks of Ko-fi Labs Limited. They are used,
+as Ko-fi allows creators to, only to link to the developer's Ko-fi page. Echelon is not affiliated with or endorsed by Ko-fi.
+
 The full licence texts are in the "licenses" folder next to Echelon.exe.
