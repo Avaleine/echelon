@@ -1,0 +1,81 @@
+=== NEXUS MODS PAGE: ECHELON MOD MANAGER ===
+
+MOD NAME:  Echelon Mod Manager
+CATEGORY:  Miscellaneous
+
+SHORT DESCRIPTION (329 of 350 characters):
+A free mod manager for Helldivers 2. Keep every mod in one library, sort them into profiles like loadouts, and deploy a whole profile in one click. Handles mod options and Bingus Shared Loader mods, warns about clashes, fixes mods after game updates, and imports your library and profiles from HD2 Arsenal. Every feature is free.
+
+FULL DESCRIPTION: click "Import description" in the editor and paste everything below the line.
+(If the import box doesn't take BBCode, paste it into the editor and fix the headings by hand.)
+-------------------------------------------------------------------------------
+[size=5][b]Description[/b][/size]
+Echelon keeps every Helldivers 2 mod you download in one library, lets you sort them into [b]profiles[/b] (think loadouts for your mods) and puts a whole profile into the game with one click. When you want a clean game again, one more click takes every mod back out.
+
+[b]Echelon is free, and every feature is for everyone. Nothing is locked.[/b]
+
+[size=5][b]Installation instructions[/b][/size]
+[list=1]
+[*]Download the file from the [b]Files[/b] tab and unzip it.
+[*]Run [b]Echelon-Setup-x.y.z-nexus.exe[/b]. It installs for your user only, so no admin rights are needed.
+[*]Windows may say "Windows protected your PC" because Echelon is new and not code-signed yet. Click [b]More info[/b], then [b]Run anyway[/b].
+[*]The first-time setup finds your game folder, asks you to accept the licence, and asks which online extras you want (all of them start off).
+[*][b]Coming from HD2 Arsenal?[/b] Setup offers to bring over your mods, profiles, load order, separators, tags and option choices. Arsenal's own files aren't changed.
+[/list]
+[b]Updating:[/b] track this page to hear about new versions, then run the new installer over the old one. Your mods, profiles and settings stay where they are.
+
+[b]Checking your download:[/b] the zip includes a [b].sha256[/b] file. To check the installer, open a command prompt in that folder and run
+[code]certutil -hashfile Echelon-Setup-x.y.z-nexus.exe SHA256[/code]
+The result should match the number in the .sha256 file.
+
+[size=5][b]Main features[/b][/size]
+[list]
+[*][b]Library[/b]: every mod as a picture card or in a compact list, with a details panel showing its description, options, size, which profiles use it, and its web page.
+[*][b]Profiles[/b]: load order, separators, tags and per-mod options. Switch between loadouts in a second.
+[*][b]One-click Deploy and Purge[/b]: Deploy puts exactly the open profile into the game. Purge takes every mod out, including ones installed by hand or by other tools.
+[*][b]Mod options[/b]: pick versions, colours and extras. Mods that ship their variants as folders get proper options too, instead of being cut down to one version.
+[*][b]Bingus Shared Loader support[/b]: Echelon recognises the loader and the mods that need it, warns when a profile is missing it, and keeps it in the right spot so Bingus mods start.
+[*][b]Clash checks[/b]: see when two mods change the same thing, and which one wins.
+[*][b]Import from HD2 Arsenal[/b]: if a mod came as several versions without a manifest, Arsenal kept only the one picked back then. Echelon lists those mods under [b]Check options[/b], with a button to get the full download so you can choose again.
+[*][b]Add from a link[/b]: paste a Nexus page and Echelon picks up your manual download automatically. Google Drive, Dropbox, GitHub and Discord links work too.
+[*][b]Share profiles[/b] as a short code ([b]EC-XXXX-XXXX[/b]) or a link. Friends see exactly which mods they're missing.
+[*][b]Repatcher[/b]: fixes model and text mods after a game update. Mods that need it get a NEEDS REPATCH badge.
+[*][b]Mod Builder[/b] for modders: build a mod with options and a manifest without writing any JSON.
+[*][b]Languages[/b]: English, Simplified Chinese and Japanese.
+[/list]
+
+[size=5][b]Requirements[/b][/size]
+[list]
+[*]Windows 10 or 11 (64-bit).
+[*]Helldivers 2. Echelon finds the game folder automatically, or asks you to point to it.
+[*]No other mods or tools needed, and no Nexus account: Echelon has no sign-in of any kind.
+[/list]
+
+[size=5][b]FAQ[/b][/size]
+[b]Will it mess up my mods or my game?[/b]
+Echelon never edits your mod files in place. It keeps its own copy of each mod, and the Repatcher always works on copies, with a way to put the originals back. Deploy only touches mod files in the game's data folder, and Purge takes them all out again.
+
+[b]Can I go back to Arsenal or another manager?[/b]
+Yes. Click [b]Purge[/b] in Echelon first so the game is clean, then deploy from the other manager. Echelon's import doesn't change anything in Arsenal.
+
+[b]Does it go online?[/b]
+Only if you turn it on. Translating mod descriptions into your language uses the MyMemory service. Sharing profiles only connects when you share or open one. This Nexus version never checks for updates by itself. No tracking, no ads.
+
+[b]My antivirus flagged it.[/b]
+Some antivirus programs flag new apps built with PyInstaller by mistake. Check the installer against its .sha256 file, and let us know in the Bugs tab so we can report it as a false positive.
+
+[b]Something went wrong. How do I report it?[/b]
+Post in the Bugs tab and attach your latest log from [b]%APPDATA%\Echelon\logs[/b]. Settings > System > About shows the exact path.
+
+[size=5][b]Shout outs[/b][/size]
+[list]
+[*][b]RaidingForPants[/b]: Echelon's Repatcher is based on [url=https://github.com/RaidingForPants/hd2-repatcher]hd2-repatcher[/url] (MIT licence).
+[*][b]eigeen[/b]: the Repatcher follows rules from [url=https://github.com/eigeen/hd2-mod-crates]hd2-mod-crates[/url] (MIT licence).
+[*][b]xypwn[/b]: the text-file reader follows the format as read by [url=https://github.com/xypwn/filediver]filediver[/url] (BSD licence).
+[*][b]cowboybingus[/b], for the Bingus Shared Loader that so many mods build on.
+[*]The Dolldivers community, for testing, ideas and patience.
+[*]Built with Qt / PySide6 (LGPL-3.0). Full licence texts ship with the app under Settings > System > Licences.
+[*]Developed with the help of AI (Claude). The page is tagged to say so.
+[/list]
+
+[size=2]Echelon is an unofficial fan-made tool and is not affiliated with or endorsed by Arrowhead Game Studios or Sony Interactive Entertainment. Using it means accepting its end-user licence agreement, shown during setup. Release notes and bug reports are also on [url=https://github.com/Avaleine/echelon]GitHub[/url].[/size]
