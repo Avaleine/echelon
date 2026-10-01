@@ -19,8 +19,18 @@ Windows may say "Windows protected your PC" because Echelon is new and not code-
 - **Bingus Shared Loader support:** recognises the loader and the mods that need it, warns when a profile is missing it, and keeps it in the right load-order spot automatically so Bingus mods actually start.
 - **Import from HD2 Arsenal:** bring your mods, profiles and option choices over.
 - **Share profiles:** as short codes (`EC-XXXX-XXXX`) or links.
-- **Developer Suite:** Mod Builder and Repatcher for modders.
+- **Solo-only mods:** mark Lua mods that change the game for everyone in the lobby. They get a SOLO badge, and Echelon reminds you to turn them off before public lobbies when you deploy them.
+- **Developer Suite for mod authors:** Mod Builder, Repatcher, Mod Inspector and Crash Finder, plus a shortcut to [HD2 Retagger](https://www.nexusmods.com/helldivers2/mods/15413) by soulls00. The Repatcher and Mod Inspector are for your own mods: before opening a mod they ask you to confirm it's yours or that its author allows it (many authors do in their Nexus page's Permissions section).
 - **Languages:** English, Simplified Chinese, Japanese.
+
+## Credits
+
+- **RaidingForPants**: the Repatcher is based on [hd2-repatcher](https://github.com/RaidingForPants/hd2-repatcher) (MIT licence).
+- **eigeen**: the Repatcher follows rules from [hd2-mod-crates](https://github.com/eigeen/hd2-mod-crates) (MIT licence).
+- **xypwn**: the text-file reader follows the format as read by [filediver](https://github.com/xypwn/filediver) (BSD licence).
+- **soulls00**: [HD2 Retagger](https://www.nexusmods.com/helldivers2/mods/15413), which the Retagger shortcut opens. It's their tool, not part of Echelon: get it from their page and endorse it if it helps.
+- **cowboybingus**, for the Bingus Shared Loader.
+- Developed with the help of AI (Claude).
 
 ## Privacy
 

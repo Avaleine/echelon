@@ -3,8 +3,8 @@
 MOD NAME:  Echelon Mod Manager
 CATEGORY:  Miscellaneous
 
-SHORT DESCRIPTION (329 of 350 characters):
-A free mod manager for Helldivers 2. Keep every mod in one library, sort them into profiles like loadouts, and deploy a whole profile in one click. Handles mod options and Bingus Shared Loader mods, warns about clashes, fixes mods after game updates, and imports your library and profiles from HD2 Arsenal. Every feature is free.
+SHORT DESCRIPTION (317 of 350 characters):
+A free mod manager for Helldivers 2. Keep every mod in one library, sort them into profiles like loadouts, and deploy a whole profile in one click. Handles mod options and Bingus Shared Loader mods, warns about clashes and solo-only mods, and imports your library and profiles from HD2 Arsenal. Every feature is free.
 
 FULL DESCRIPTION: click "Import description" in the editor and paste everything below the line.
 (If the import box doesn't take BBCode, paste it into the editor and fix the headings by hand.)
@@ -39,8 +39,15 @@ The result should match the number in the .sha256 file.
 [*][b]Import from HD2 Arsenal[/b]: if a mod came as several versions without a manifest, Arsenal kept only the one picked back then. Echelon lists those mods under [b]Check options[/b], with a button to get the full download so you can choose again.
 [*][b]Add from a link[/b]: paste a Nexus page and Echelon picks up your manual download automatically. Google Drive, Dropbox, GitHub and Discord links work too.
 [*][b]Share profiles[/b] as a short code ([b]EC-XXXX-XXXX[/b]) or a link. Friends see exactly which mods they're missing.
-[*][b]Repatcher[/b]: fixes model and text mods after a game update. Mods that need it get a NEEDS REPATCH badge.
-[*][b]Mod Builder[/b] for modders: build a mod with options and a manifest without writing any JSON.
+[*][b]Solo-only mods[/b]: some Lua mods change the game for everyone in the lobby. Mark them as solo only and they get a SOLO badge, plus a reminder to turn them off before public lobbies when you deploy. Echelon suggests the mark when a mod's description mentions solo play or anti-cheat.
+[*][b]Developer Suite for mod authors[/b]:
+[list]
+[*][b]Mod Builder[/b]: build a mod with options and a manifest without writing any JSON.
+[*][b]Repatcher[/b]: keeps your own model and text mods working after a game update. Mods that need it get a NEEDS REPATCH badge.
+[*][b]Mod Inspector[/b]: see what's inside your mod, check it for common problems, and compare versions.
+[*][b]Retagger[/b]: a shortcut to [url=https://www.nexusmods.com/helldivers2/mods/15413]HD2 Retagger[/url] by soulls00 for moving an armor look onto other armors. Get it from their page; Echelon only starts it.
+[/list]
+The Repatcher and Mod Inspector are for your own mods. Before they open a mod, they ask you to confirm it's yours or that its author allows it. Many authors give that permission in the Permissions section of their Nexus page; if not, ask them first.
 [*][b]Languages[/b]: English, Simplified Chinese and Japanese.
 [/list]
 
@@ -72,6 +79,7 @@ Post in the Bugs tab and attach your latest log from [b]%APPDATA%\Echelon\logs[/
 [*][b]RaidingForPants[/b]: Echelon's Repatcher is based on [url=https://github.com/RaidingForPants/hd2-repatcher]hd2-repatcher[/url] (MIT licence).
 [*][b]eigeen[/b]: the Repatcher follows rules from [url=https://github.com/eigeen/hd2-mod-crates]hd2-mod-crates[/url] (MIT licence).
 [*][b]xypwn[/b]: the text-file reader follows the format as read by [url=https://github.com/xypwn/filediver]filediver[/url] (BSD licence).
+[*][b]soulls00[/b]: [url=https://www.nexusmods.com/helldivers2/mods/15413]HD2 Retagger[/url], which the Retagger shortcut opens. Go endorse it!
 [*][b]cowboybingus[/b], for the Bingus Shared Loader that so many mods build on.
 [*]The Dolldivers community, for testing, ideas and patience.
 [*]Built with Qt / PySide6 (LGPL-3.0). Full licence texts ship with the app under Settings > System > Licences.
