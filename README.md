@@ -10,7 +10,12 @@ A mod manager for Helldivers 2. Keep a library of mods, arrange them into profil
 
 Get **Echelon-Setup-x.y.z.exe** from the [latest release](../../releases/latest) and run it. It installs for your user only, with no admin prompt.
 
-Windows may say "Windows protected your PC" because Echelon is new and not code-signed yet. Click **More info → Run anyway**.
+The installer is code-signed. Windows may still say "Windows protected your PC" for a while, because the signature is new. Click **More info → Run anyway**.
+
+Echelon is also on:
+
+- [Nexus Mods](https://www.nexusmods.com/helldivers2/mods/16613). That build works fully offline and has no update check, as Nexus asks of tools it hosts. New versions are posted on the page.
+- [AyakaMods](https://ayakamods.com/mods/echelon-mod-manager.4486/).
 
 ## What it does
 
