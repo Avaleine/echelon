@@ -6,6 +6,10 @@ A mod manager for Helldivers 2. Keep a library of mods, arrange them into profil
 
 **Status: beta.** Back up anything you care about, and please report problems (see below).
 
+[![Discord](https://img.shields.io/badge/Discord-Dolldivers%20hub-FF6B1A?logo=discord&logoColor=white)](https://discord.gg/ybSbUjXDht)
+
+Join the [Echelon Discord](https://discord.gg/ybSbUjXDht) for news, help, bug reports and share codes.
+
 ## Download
 
 Get **Echelon-Setup-x.y.z.exe** from the [latest release](../../releases/latest) and run it. It installs for your user only, with no admin prompt.
