@@ -53,7 +53,7 @@ Echelon is free, and every feature is available to everyone. If you'd like to su
 
 ## Reporting a problem
 
-Open an [issue](../../issues) and attach your latest log from `%APPDATA%\Echelon\logs` (Settings > System > About shows the exact path).
+Open an [issue](../../issues) and attach your latest log from `%APPDATA%\Echelon\logs` (Settings > About shows the exact path).
 
 ## Legal
 

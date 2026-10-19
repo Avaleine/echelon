@@ -66,13 +66,13 @@ Echelon never edits your mod files in place. It keeps its own copy of each mod, 
 Yes. Click [b]Purge[/b] in Echelon first so the game is clean, then deploy from the other manager. Echelon's import doesn't change anything in Arsenal.
 
 [b]Does it go online?[/b]
-Only if you turn it on. Translating mod descriptions into your language uses the MyMemory service. Sharing profiles only connects when you share or open one. This Nexus version never checks for updates by itself. No tracking, no ads.
+Only if you turn it on. Translating mod descriptions into your language uses the MyMemory service. Sharing profiles only connects when you share or open one. Checking for updates only looks up the newest version number, and if you turn it on: this Nexus version then opens this page and never downloads anything by itself. No tracking, no ads.
 
 [b]My antivirus flagged it.[/b]
 Some antivirus programs flag new apps built with PyInstaller by mistake. Check the installer against its .sha256 file, and let us know in the Bugs tab so we can report it as a false positive.
 
 [b]Something went wrong. How do I report it?[/b]
-Post in the Bugs tab and attach your latest log from [b]%APPDATA%\Echelon\logs[/b]. Settings > System > About shows the exact path.
+Post in the Bugs tab and attach your latest log from [b]%APPDATA%\Echelon\logs[/b]. Settings > About shows the exact path.
 
 [size=5][b]Shout outs[/b][/size]
 [list]
@@ -81,8 +81,9 @@ Post in the Bugs tab and attach your latest log from [b]%APPDATA%\Echelon\logs[/
 [*][b]xypwn[/b]: the text-file reader follows the format as read by [url=https://github.com/xypwn/filediver]filediver[/url] (BSD licence).
 [*][b]soulls00[/b]: [url=https://www.nexusmods.com/helldivers2/mods/15413]HD2 Retagger[/url], which the Retagger shortcut opens. Go endorse it!
 [*][b]cowboybingus[/b], for the Bingus Shared Loader that so many mods build on.
+[*][b]UX inspiration[/b]: Some of Echelon's early interface layout, including its settings structure, took inspiration from HD2 Arsenal, so that modders migrating over could find their way around more easily in the initial versions. Credit to HD2 Arsenal for that.
 [*]The Dolldivers community, for testing, ideas and patience.
-[*]Built with Qt / PySide6 (LGPL-3.0). Full licence texts ship with the app under Settings > System > Licences.
+[*]Built with Qt / PySide6 (LGPL-3.0). Full licence texts ship with the app under Settings > About > Licences.
 [*]Developed with the help of AI (Claude). The page is tagged to say so.
 [/list]
 
